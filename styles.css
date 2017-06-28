@@ -1,0 +1,75 @@
+.nav {
+  color: black;
+  float: right;
+  margin: 0 auto;
+}
+
+.one{
+  background-color: red;
+  float: left;
+  width: auto;
+}
+
+.two {
+  background-color: white;
+  float; right;
+  width: auto;
+}
+
+.three {
+  background: color: blue;
+  float: left;
+  width: auto;
+}
+@media screen and (min-width: 480px) {
+   .nav {
+     position: relative;
+   }
+  .one {
+    background-color: lightgreen;
+  }
+  .two{
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .one {
+    background-color: beige;
+  }
+  .two {
+    background-color: tan;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    color: red
+  }
+
+  img {
+    display: block;
+  }
+
+  img: first-child {
+    display: block;
+    float: right;
+    width: 33%;
+  }
+
+  img: nth-child(2) {
+    clear: both;
+    width: 33%;
+  }
+
+  img: nth-child(3) {
+    float: left;
+    width: 33%;
+  }
+}
